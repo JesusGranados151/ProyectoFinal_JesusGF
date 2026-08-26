@@ -1,8 +1,8 @@
 productos = []
 while True:
-  print()
+  print("---------------------")
   print("Bienvenido a StockHub")
-  print()
+  print("---------------------")
   print("1. Agregar Producto")
   print("2. Ver Stock")
   print("3. Buscar Producto")
@@ -10,7 +10,7 @@ while True:
   print("5. Salir")
   print()
 
-  opcion = input("Ingrese el número de la acción que desea hacer: ")
+  opcion = input("Ingrese el número de la acción que desea ejecutar: ")
   print()
 
   if opcion == "1":
